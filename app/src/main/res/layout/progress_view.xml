@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <huanxin.gjj.downloadmanager.ProgressWheel
+        xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progress_bar_two"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        ProgressWheel:barColor="#339BB9"
+        ProgressWheel:barWidth="4dp"
+        ProgressWheel:rimColor="#44000000"
+        ProgressWheel:rimWidth="4dp"
+        ProgressWheel:spinSpeed="3dp"
+        ProgressWheel:text="0%"
+        ProgressWheel:textColor="#222222"
+        ProgressWheel:textSize="14sp" />
+</LinearLayout>
